@@ -1,0 +1,34 @@
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+dist-ssr/
+coverage/
+
+# Temporary files
+*.local
+*.tmp
+
+# Editor directories
+.vscode/
+.idea/
+.DS_Store
+
+# Operating system files
+Thumbs.db
